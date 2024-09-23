@@ -1,0 +1,253 @@
+.custom-navbar {
+  background-color: #000000 !important; /* Menjamin warna background diterapkan */
+  position: fixed !important;
+  width: 100% !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+}
+
+.mt-5{
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.carousel-caption h5 {
+    font-size: 4rem; /* Ukuran font lebih besar */
+    font-weight: bold;
+    text-align: center; /* Text center */
+  }
+  
+  .carousel-caption p {
+    font-size: 2rem; /* Ukuran font lebih besar */
+    text-align: center; /* Text center */
+  }
+  /* Container styling */
+.container {
+  padding: 80px;
+  background-color:   #b3cbe4; /* Light grey background */
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px 10px rgba(216, 160, 7, 0.829); /* Soft shadow */
+}
+
+/* Section title styling */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40; /* Dark grey color */
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.img-thumbnail {
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Product name styling */
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #212529; /* Darker text color */
+}
+
+/* Product price styling */
+.product-price {
+  font-size: 16px;
+  color: #28a745; /* Green color for price */
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.product-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-btn a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Background Color */
+.footer-bg {
+  background-color: #030303; /* Dark background color */
+  color: #ffffff; /* White text color for contrast */
+  padding: 20px 0; /* Padding to add some space around the text */
+}
+.card {
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Styling untuk navbar */
+.custom-navbar {
+  background-color: #000000; /* Warna hitam untuk background navbar */
+  position: fixed; /* Menjaga navbar tetap di atas saat scroll */
+  width: 100%; /* Menjaga navbar mengambil lebar penuh */
+  top: 0; /* Menempelkan navbar di bagian atas halaman */
+  z-index: 9999; /* Memastikan navbar berada di atas elemen lain */
+}
+
+.custom-navbar .nav-link.active {
+  color: rgb(199, 190, 190) !important; /* Membuat warna active menjadi putih */
+}
+
+.custom-navbar .nav-link:hover {
+  color: white !important; /* Opsi: Membuat warna saat hover menjadi putih juga */
+}
+
+
+/* Styling untuk link di navbar */
+.custom-navbar .nav-link {
+  color: #ffffff; /* Warna putih untuk teks menu navbar */
+}
+
+/* Styling untuk link di navbar saat dihover */
+.custom-navbar .nav-link:hover {
+  color: #cccccc; /* Warna abu-abu saat dihover */
+}
+
+/* Styling untuk brand di navbar */
+.custom-navbar .navbar-brand {
+  color: #ffffff; /* Warna putih untuk teks brand */
+  display: flex; /* Menyelaraskan item di brand dengan logo dan teks */
+  align-items: center; /* Vertikal center */
+}
+
+/* Styling untuk brand di navbar saat dihover */
+.custom-navbar .navbar-brand:hover {
+  color: #cccccc; /* Warna abu-abu saat dihover */
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner .overlay h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  animation: animate-text 3s ease-in-out infinite;
+}
+
+@keyframes animate-text {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card {
+  border: none;
+}
+
+.shadow-sm {
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+
+.btn-primary:hover {
+  background-color: #FFC107;
+  border-color: #FFC107;
+}
+
+.animated-title {
+  animation: fade-in 2s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
